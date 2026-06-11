@@ -19,24 +19,6 @@ chess-bot/
 └── .gitignore
 ```
 
-## How to Upload to GitHub
-
-1. **Create a GitHub repository**
-   - Go to [GitHub](https://github.com)
-   - Click "New repository"
-   - Give it a name (e.g., "chess-bot")
-   - Choose visibility (public/private)
-   - Do NOT initialize with README (we'll add it)
-
-2. **Push your code**
-   ```bash
-   # From your local machine (not in the PowerShell environment)
-   cd chess-bot
-   git init
-   git add .
-   git commit -m "Initial commit: Chess.com selfbot for playing at 3200 rating"
-   git remote add origin https://github.com/your-username/chess-bot.git
-   git push -u origin master
    ```
 
 ## Project Features
